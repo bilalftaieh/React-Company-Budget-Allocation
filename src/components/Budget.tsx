@@ -1,13 +1,11 @@
 import { useSelector, useDispatch } from 'react-redux'
 import { changeBudget } from '../features/budgetSlice';
-interface BudgetState {
-    budget: {
-        value: number;
-    };
-}
+import { BudgetState, CurrencyState } from '../definitions';
 
 export default function Budget() {
     const budget = useSelector((state: BudgetState) => state.budget.value);
+    const currentCurrency = useSelector((state: CurrencyState) => state.currency.value)
+
     const dispatch = useDispatch()
 
     return (
@@ -18,7 +16,7 @@ export default function Budget() {
                     Budget
                 </p>
                 <p>
-                    {budget}$
+                    {budget}{currentCurrency.substring(0, 2)}
                 </p>
             </div>
 

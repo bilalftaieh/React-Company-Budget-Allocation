@@ -6,16 +6,15 @@ export const expenseSlice = createSlice({
     value: 0
   },
   reducers: {
-    incrementByAmount :  (state, action) => {
-        state.value += action.payload
+    incrementByAmount: (state, action) => {
+      state.value += action.payload
     },
-    decrementByAmount :  (state, action) => {
+    decrementByAmount: (state, action) => {
       state.value -= action.payload
-  },
+    },
   }
 })
 
-// Action creators are generated for each case reducer function
 export const { incrementByAmount, decrementByAmount } = expenseSlice.actions
 
 export default expenseSlice.reducer

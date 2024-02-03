@@ -6,13 +6,12 @@ export const budgetSlice = createSlice({
     value: 0
   },
   reducers: {
-    changeBudget :  (state, action) => {
-        state.value = action.payload
+    changeBudget: (state, action) => {
+      state.value = action.payload
     }
   }
 })
 
-// Action creators are generated for each case reducer function
 export const { changeBudget } = budgetSlice.actions
 
 export default budgetSlice.reducer

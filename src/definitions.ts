@@ -1,4 +1,4 @@
-export type Expense = {
+export type Allocation = {
   name: string;
   value: number;
 };
@@ -9,14 +9,20 @@ export interface BudgetState {
   };
 }
 
-export interface ExpenseListState {
-  expenseList: {
-    value: Expense[];
+export interface AllocationListState {
+  allocationList: {
+    value: Allocation[];
   };
 }
 
 export interface ExpenseState {
   expense: {
     value: number
+  }
+}
+
+export interface CurrencyState {
+  currency: {
+    value: string
   }
 }

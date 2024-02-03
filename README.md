@@ -1,14 +1,12 @@
-# Budget Allocation App
+# Company Budget Allocation App
 
-This project is a part of the IBM Full Stack Development Course. It's a budget allocation application built with React and Redux. This is my first time using Redux for state management in a React application.
+This project is a final assignment from the IBM Full Stack Development Course. It’s a company budget allocation application built with React and Redux. This is my second time using Redux for state management in a React application.
 
 ## Description
 
-The Budget Allocation App is designed to help users manage their finances effectively. Users can set their budget and add their expenses. The app provides a visual representation of the budget and expenses, making it easier for users to understand their financial situation.
+The Company Budget Allocation App is designed to help companies manage their departmental budgets effectively. Companies can set their overall budget and allocate funds to different departments. The app provides a visual representation of the budget and allocations, making it easier for companies to understand their financial distribution.
 
-This project is built using React, a popular JavaScript library for building user interfaces. For state management, the app uses Redux. 
-
-As this is my first time using Redux, this project has been a great learning experience in understanding how Redux works and how it can be used in a React application for state management.
+This project is built using React, a popular JavaScript library for building user interfaces. For state management, the app uses Redux.
 
 ## Getting Started
 

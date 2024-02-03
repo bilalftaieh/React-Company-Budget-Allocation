@@ -1,5 +1,6 @@
+import Allocations from './components/Allocations'
 import Budget from './components/Budget'
-import Expenses from './components/Expenses'
+import Currency from './components/Currency'
 import Header from './components/Header'
 import Remaining from './components/Remaining'
 import SpentSoFar from './components/SpentSoFar'
@@ -14,9 +15,10 @@ function App() {
         <Budget />
         <Remaining />
         <SpentSoFar />
+        <Currency />
       </div>
 
-      <Expenses />
+      <Allocations />
     </div>
   )
 }
